@@ -1,0 +1,13 @@
+diff -up python-ldap-2.3.5/setup.cfg.dirs python-ldap-2.3.5/setup.cfg
+--- python-ldap-2.3.5/setup.cfg.dirs	2008-07-06 11:04:13.000000000 -0400
++++ python-ldap-2.3.5/setup.cfg	2008-09-03 13:45:20.000000000 -0400
+@@ -2,8 +2,7 @@
+ extra_objects = 
+ extra_compile_args = 
+ libs = ldap_r lber sasl2 ssl crypto
+-library_dirs = /usr/local/openldap-2.3/lib
+-include_dirs = /usr/local/openldap-2.3/include /usr/include/sasl
++include_dirs = /usr/include/sasl
+ 
+ [egg_info]
+ tag_build = 
